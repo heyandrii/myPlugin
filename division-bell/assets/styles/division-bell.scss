@@ -1,0 +1,42 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.db--overlay {
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    background-color: green;
+    opacity: 0.7;
+}
+
+.db--overlay__shown {
+    height: 100%;
+    width: 100%;
+}
+
+.db--wrapper {
+    max-width: 500px;
+    min-width: 300px;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: none;
+}
+
+.db__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+    padding: 13px;
+    line-height: 15px;
+    cursor: pointer;
+    font-weight: 900;
+}
