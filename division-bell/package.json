@@ -2,7 +2,7 @@
   "name": "division-bell",
   "version": "1.0.0",
   "description": "simple kind of popup",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
